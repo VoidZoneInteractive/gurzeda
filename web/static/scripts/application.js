@@ -7,8 +7,8 @@ $( document ).ready(function()
         e.preventDefault();
         //$('#content').css('width', '50%');
         var tl = new TimelineLite();
-        tl.to('#content', 0.7, {width: '50%', ease: Power3.easeIn});
         tl.to('#background', 0.7, {width: '50%', ease: Power3.easeIn});
+        tl.to('#content', 0.7, {width: '50%', ease: Power3.easeIn});
         tl.play();
         //$('#background').css('width', '50%');
     });
