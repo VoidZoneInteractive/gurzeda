@@ -98,6 +98,9 @@ html, body {
 	bottom: 40px;
 	background-color: #EBEBEB;
 	z-index: 20;
+
+    -webkit-transition: top,bottom 0.7s;
+    transition: top,bottom 0.7s;
 }
 
 nav {
