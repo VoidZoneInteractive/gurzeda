@@ -81,7 +81,7 @@ html, body {
 
 #header .subtitle {
 	display: block;
-	background-color: #EBEBEB;
+	background-color: #FFF;
 	color: #212121;
 	font-size: 23px;
 	padding: 20px 30px;
@@ -94,7 +94,7 @@ html, body {
 	top: 0;
 	right: 0;
 	bottom: 40px;
-	background-color: #FFF;
+	background-color: #EBEBEB;
 	z-index: 20;
 }
 
