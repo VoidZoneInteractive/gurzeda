@@ -1,0 +1,122 @@
+html {
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+body {
+	background-color: #000;
+	font-family: 'Lato', sans-serif;
+	padding: 0;
+}
+
+html, body {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+#background {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	
+	background-image: url('//static.gurzeda.co/images/background.jpg');
+	background-size: cover;
+	background-position-y: center;
+
+    -webkit-transition: width 0.7s;
+    transition: width 0.7s;
+	z-index: 10;
+}
+
+#header {
+	position: absolute;
+	margin: 0 auto;
+	bottom: 60px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 0px;
+	z-index: 30;
+
+    -webkit-transition: top,bottom 0.7s;
+    transition: top,bottom 0.7s;
+}
+
+#header .left, .right {
+	display: inline-block;
+    vertical-align: top;
+	width: 418px;
+}
+
+#header .left {
+    text-align: right;
+}
+
+#header .right {
+    text-align: left;
+}
+
+#header .firstname, .lastname {
+	padding: 30px;
+	display: inline-block;
+	margin: 0;
+	text-transform: uppercase;
+    font-weight: 400;
+	font-size: 46px;
+}
+
+#header .firstname{
+	background-color: #DE2915;
+	color: #FFF;
+}
+
+#header .lastname {
+	background-color: #212121;
+	color: #FFF;
+}
+
+#header .subtitle {
+	display: block;
+	background-color: #FFF;
+	color: #212121;
+	font-size: 23px;
+	padding: 20px 30px;
+    font-weight: 300;
+}
+
+#content {
+	width: 50%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 40px;
+	background-color: #EBEBEB;
+	z-index: 20;
+}
+
+nav {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	background-color: #FFF;
+	z-index: 40;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	margin: auto 15px;
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: 400;
+	display: inline-block;
+}
