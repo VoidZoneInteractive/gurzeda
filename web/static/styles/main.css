@@ -44,8 +44,8 @@ html, body {
 	font-size: 0px;
 	z-index: 30;
 
-    -webkit-transition: top,bottom 0.7s;
-    transition: top,bottom 0.7s;
+    /*-webkit-transition: top,bottom 0.7s;*/
+    /*transition: top,bottom 0.7s;*/
 }
 
 #header .left, .right {
@@ -99,8 +99,8 @@ html, body {
 	background-color: #EBEBEB;
 	z-index: 20;
 
-    -webkit-transition: width 0.7s;
-    transition: width 0.7s;
+    /*-webkit-transition: width 0.7s;*/
+    /*transition: width 0.7s;*/
 }
 
 nav {
