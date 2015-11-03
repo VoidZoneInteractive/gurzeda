@@ -24,6 +24,7 @@ class Site extends Controller{
     public function homeAction()
     {
         return $this->render('gurzeda/site/index.html.twig', array(
+            'title' => 'Tes',
             'title' => 'Grzegorz Gurzeda - Developer',
         ));
     }
