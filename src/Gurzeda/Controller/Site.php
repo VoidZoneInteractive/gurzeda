@@ -27,7 +27,5 @@ class Site extends Controller{
             'title' => 'Tes',
             'title' => 'Grzegorz Gurzeda - Developer',
         ));
-
-        echo 'prokurujemy blad';
     }
 }
