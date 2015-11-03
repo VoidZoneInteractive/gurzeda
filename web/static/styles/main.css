@@ -45,8 +45,8 @@ html, body {
     font-size: 0px;
     z-index: 30;
 
-    -webkit-transition: width 0.7s ease-out;
-    transition: width 0.7s ease-out;
+    -webkit-transition: width 0.7s ease-out 1s;
+    transition: width 0.7s ease-out 1s;
 }
 
 #header .left, .right {
